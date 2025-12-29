@@ -41,7 +41,7 @@ public class HerokuAppLoginTest {
 
         // Enter credentials
         username.sendKeys("tom");
-        password.sendKeys("SuperSecretPassword!");
+        password.sendKeys("SuperSecred!");
 
         // Click login
         driver.findElement(By.cssSelector("button[type='submit']")).click();
