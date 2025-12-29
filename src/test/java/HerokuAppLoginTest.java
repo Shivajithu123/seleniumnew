@@ -40,7 +40,7 @@ public class HerokuAppLoginTest {
         WebElement password = driver.findElement(By.id("password"));
 
         // Enter credentials
-        username.sendKeys("tomsmith");
+        username.sendKeys("tomsmith1");
         password.sendKeys("SuperSecretPassword!");
 
         // Click login
