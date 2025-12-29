@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Parallel Suite"
+       parallel="methods"
+       thread-count="2">
+
+    <test name="Parallel Login Tests">
+        <classes>
+            <class name="test.HerokuParallelLoginTest"/>
+        </classes>
+    </test>
+
+</suite>
